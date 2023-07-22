@@ -2,46 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootStrap B&B</title>
-    <!-- Author: Kali Campbell
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BootStrap B&B</title>
+  <!-- Author: Kali Campbell
     Date: 7/20/23
     Project: Bootstrap B&B -->
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-                </li>
-              </ul>
-            </nav>
+  <header>
+    <div class="container">
+      <nav>
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <div class="container bg-secondary">
+    <div class="row">
+
+      <div class="col-sm-6 mb-3 md-sm-0">
+        <div class="contact">
+          <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.8062712485876!2d-104.84471582384681!3d38.83689737173712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871345339e9746c3%3A0xc4c07829a1798240!2s1102%20W%20Pikes%20Peak%20Ave%2C%20Colorado%20Springs%2C%20CO%2080904!5e0!3m2!1sen!2sus!4v1689991590977!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
-    </header>
 
-    contact usform
-    google embed
+        <div class="contact-info">
+          Lazy Days Bed and Breakfast
+          <br>1102 West Pikes Peak Avenue, Colorado Springs, Colorado 80904          
+          <br>Phone: (937)-505-1037
+          <br>Email: lazydaysbb@gmail.com
+        </div>
+
+        <div class="social-links">
+          <a href="..."><i class="fab fa-facebook"></i></a>
+          <a href="..."><i class="fab fa-twitter"></i></a>
+          <a href="..."><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-6">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for ="inputName" class="form-label"> Name </label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <input type="text" class="form-control" id="inputState">
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Send me information and promotions. 
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </div>
+        </form>
+    </div>
 
 
 
 
+    <footer>
+      <div class="container text-center"> Lazy Days Bed &#38; Breakfast &#169;</div>
+    </footer>
+</div>
+</div>
 
-
-
-
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/292103325a.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
